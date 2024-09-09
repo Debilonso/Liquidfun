@@ -101,12 +101,14 @@
 #include "WaveMachine.h"
 //incluyo el codigo de mi programa.
 #include "Proyecto.h"
+#include "CasoUno.h"
 
 TestEntry g_testEntries[] =
 {
 	{"Sandbox", Sandbox::Create},
 	//agrego mi proyecto al testsbed con la clase principal del archivo.
 	{"Proyecto", ProyectoFluidos::Create},
+	{"ProyectoCasoUno", ProyectoCasoUno::Create},
 	{"Sparky", Sparky::Create},
 	{"DamBreak", DamBreak::Create},
 	{"Liquid Timer", LiquidTimer::Create},
